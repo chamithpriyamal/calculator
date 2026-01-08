@@ -36,7 +36,7 @@ jobs:
           platforms: linux/amd64,linux/arm64
 
       - name: Trigger Render deployment
-        uses: johnbeynon/render-deploy-actionv@0.0.8
+        uses: johnbeynon/render-deploy-action@v0.0.8
         with:
           service-id: ${{ secrets.RENDER_SERVICE_ID }}
           api-key: ${{ secrets.RENDER_API_KEY }}
